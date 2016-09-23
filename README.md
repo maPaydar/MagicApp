@@ -10,12 +10,12 @@ Nowdays you can write some thing in node and then with some convert, use your co
 And, Electron project is the main tool, to migration from web to desktop.
 
 ##Core
-Using [Node js](nodejs.org), [AngularJs](angular.io).
+Using [Node js](https://nodejs.org/en/), [AngularJs](https://angular.io/).
 
 ##UI
-Using [material angularjs](material.angularjs.org) .
+Using [material angularjs](https://material.angularjs.org) .
 
 ##How this is possible run this app on desktop ?
 
-This project using [Electron](electron.atom.io).
+This project using [Electron](http://electron.atom.io/).
 Electron suggest a wide options to distribute and run an web app on desktop.
