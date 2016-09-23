@@ -1,7 +1,7 @@
 # MagicApp
 This is an app for both web and desktop(linux, windows, mac).
 
-- Write same code, run on we and desktop.:)
+- Write same code, run on web and desktop.:)
 
 ##What is Idea ?
 
