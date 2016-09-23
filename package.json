@@ -10,9 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/maPaydar/MagicApp.git"
   },
-  "keywords": [
-
-  ],
+  "keywords": [],
   "author": "Amin Paydar",
   "license": "CC0-1.0",
   "bugs": {
