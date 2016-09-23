@@ -11,7 +11,7 @@ And, Electron project is the main tool, to migration from web to desktop.
 Using [Node js](nodejs.org), [AngularJs](angular.io).
 
 ##UI
-Using material.angularjs.org .
+Using [material angularjs](material.angularjs.org) .
 
 ##How this is possible run this app on desktop ?
 
