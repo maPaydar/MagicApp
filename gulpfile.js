@@ -4,13 +4,16 @@ var webpack = require('webpack-stream');
 /*
   this task : to do polifily app.js
 */
-gulp.task('default', function() {
-    return gulp.src('app/src/app.js')
+gulp.task('app-bootstrap', function() {
+    return gulp.src('app/src/bootstrap.js')
         .pipe(webpack({
             watch: true,
+            optimizeMinimize: true,
             output: {
-                filename: 'appDist.js',
+                filename: 'bootstrapDist.js',
             },
         }))
         .pipe(gulp.dest('app/src'));
 });
+
+gulp.task('default', ['app-bootstrap'])
