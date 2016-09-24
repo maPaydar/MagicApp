@@ -44,6 +44,10 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	/*
+	  use webpack : webpack app.js appDist.js
+	  ** : DO NOT USE --optimize-minimize
+	*/
 	const AppController = __webpack_require__(1);
 
 	angular.module('AngularMaterialApp', ['ngMaterial' /*, Users.name*/ ])
@@ -64,7 +68,6 @@
 /***/ function(module, exports) {
 
 	module.exports = function($scope, $mdSidenav, $mdToast) {
-
 	    $scope.toggle = function() {
 	        $mdSidenav('left').toggle();
 	    };

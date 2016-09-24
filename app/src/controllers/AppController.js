@@ -1,5 +1,4 @@
 module.exports = function($scope, $mdSidenav, $mdToast) {
-
     $scope.toggle = function() {
         $mdSidenav('left').toggle();
     };
