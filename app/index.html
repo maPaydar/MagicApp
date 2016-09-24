@@ -42,6 +42,7 @@
             <div>
                 <md-button ng-click="openToast()">OpenToast</md-button>
             </div>
+            <div ng-view></div>
             <!--
             <md-calendar ng-model="birthday">
             </md-calendar>
@@ -52,7 +53,12 @@
                     <p>Card content</p>
                 </md-card-content>
                 <md-card-actions layout="row" layout-align="end center">
-
+                    <md-button>
+                        <a href="#hello">Hello</a>
+                    </md-button>
+                    <md-button>
+                        <a href="#about">About</a>
+                    </md-button>
                 </md-card-actions>
             </md-card>
         </md-content>
