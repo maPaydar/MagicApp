@@ -19,3 +19,7 @@ Using [material angularjs](https://material.angularjs.org) .
 
 This project using [Electron](http://electron.atom.io/).
 Electron suggest a wide options to distribute and run an web app on desktop.
+
+##How to use es6 in browser ?
+By using [webpack](https://webpack.github.io) you can bundle all js files es6 or es5 to a one js file and link to it in html file.
+In this way you can write same code for electron and browser.
